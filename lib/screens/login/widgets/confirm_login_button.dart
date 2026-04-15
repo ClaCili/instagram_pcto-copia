@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:instagram_pcto/screens/login/login_screen_activated.dart';
+import 'package:instagram_pcto/screens/home/home_screen.dart';
 
 class ConfirmLoginButton extends StatelessWidget {
   const ConfirmLoginButton({super.key});
@@ -10,7 +10,7 @@ class ConfirmLoginButton extends StatelessWidget {
       onTap: (){
         Navigator.push(
           context,
-          MaterialPageRoute(builder: (context) => const Placeholder()),
+          MaterialPageRoute(builder: (context) => HomeScreen()),
         );
       },
       
